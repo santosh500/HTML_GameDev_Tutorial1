@@ -1,0 +1,49 @@
+#game-canvas
+{
+
+  display: block;
+
+}
+
+#game
+{
+  width: 480px;
+  height: 320px;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+
+}
+
+#hud
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ac1000;
+  background: #efefef;
+  padding: 10px;
+
+}
+
+#gameover
+{
+  position: absolute;
+  top: -320px;
+  left: 0;
+  width: 480px;
+  height: 270px;
+  background: white;
+  text-align: : center;
+  padding-top: 50px;
+  font-size: 2em;
+}
+
+#gameover.gameover-appear
+{
+  top: 0;
+  -webkit-transition: top .3s ease-out;
+  -moz-transition: top .3s ease-out;
+  transition: top .3s ease-out;
+}
